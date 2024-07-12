@@ -485,6 +485,15 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+.section-header h4 {
+  font-size: 28px;
+  color: #413e66;
+  text-align: center;
+  font-weight: 650;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
 .section-header p {
   text-align: center;
   margin: auto;

@@ -54,12 +54,12 @@
       </div>
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class=""><a href="#intro">Home</a></li>
+          <li class="active"><a href="#intro">Home</a></li>
           <li class=""><a href="#about">About Us</a></li>
           <li class=""><a href="#services">Services</a></li>
-          <li class="drop-down active"><a href="#products">Products</a>
+          <li class="drop-down"><a href="#products">Products</a>
             <ul>
-              <li class="drop-down active"><a href="#products">OS Products</a>
+              <li class="drop-down"><a href="#products">OS Products</a>
                 <ul>
                   <li><a href="#bassos">Bass OS</a></li>
                   <li><a href="#basspi">Bass Pi</a></li>
@@ -102,32 +102,32 @@
       </div>
     </div>
   </section>
-  <div class="py-3 text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1>Open Source and More</h1>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-4 p-4"> <i class="d-block fa fa-circle fa-3x mb-2 text-muted"></i>
-          <h4> <b>Corporate Social Responsibility (CSR)</b></h4>
-          <p>We are the official corporate sponsors of BlissLabs . The Team also have core contributors of BlissLabs projects.<br>&nbsp;Logo with Link</p><a class="btn btn-info" href="#">BlissLabs</a>
-        </div>
-        <div class="col-md-4 col-6 p-4"> <i class="d-block fa fa-stop-circle-o fa-3x mb-2 text-muted"></i>
-          <h4> <b>Free and Open Source Software</b></h4>
-          <p style="">We offer most of our products software builds as freebies for compatibility testing and personal use</p><a class="btn btn-info" href="#">BASSOS</a><a class="btn btn-info" href="#">BASSPi</a>
-        </div>
-        <div class="col-md-4 col-6 p-4"> <i class="d-block fa fa-circle-o fa-3x mb-2 text-muted"></i>
-          <h3 style=""><b>Colloboration</b></h3>
-          <p>We colloborate and contribute regularly to upstream open source projects</p><a class="btn btn-info" href="#">Waydroid</a><a class="btn btn-info" href="#">BlissOS</a>
+  <!-- #intro -->
+  <main id="main"></main>
+  <section id="about" class="pb-0">
+    <div class="py-3 text-center">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-12 text-center about-content">
+            <h2>Open Source and More</h2>
+          </div>
+          <div class="row justify-content-center about-content">
+            <div class="col-md-4 p-4"> <i class="d-block fa fa-circle fa-3x mb-2 text-muted"></i>
+              <h4> <b>Corporate Social Responsibility (CSR)</b></h4>
+              <p>Official corporate sponsors of BlissLabs . The Team also have core contributors of BlissLabs projects.</p><a class="btn btn-info mx-3" href="#">BlissLabs</a>
+            </div>
+            <div class="col-md-4 col-6 p-4"> <i class="d-block fa fa-stop-circle-o fa-3x mb-2 text-muted"></i>
+              <h4> <b>Free and Open Source Software</b></h4>
+              <p style="">We offer most of our products software builds as freebies for compatibility testing and personal use</p><a class="btn btn-info mx-3" href="#">Bass OS</a><a class="btn btn-info mx-3" href="#">Bass ARM</a>
+            </div>
+            <div class="col-md-4 col-6 p-4"> <i class="d-block fa fa-circle-o fa-3x mb-2 text-muted"></i>
+              <h4 style=""><b>Collaboration &amp; Innovation</b></h4>
+              <p>We collaborate and contribute regularly to upstream open source projects like Bliss OS, Waydroid and others</p><a class="btn btn-info mx-3" href="#">Waydroid</a><a class="btn btn-info mx-3" href="#">BlissOS</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- #intro -->
-  <main id="main"></main>
-  <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-6">
@@ -144,11 +144,19 @@
               <p contenteditable="true">We bring together a seasoned team with a rich history of pioneering advancements in technology. We pride ourselves on our dual commitment to corporate innovation and open source collaboration. By harnessing the collective expertise of our team and the vibrant contributions of the open source community, we deliver innovative development solutions that redefine technological excellence.</p>
             </div>
             <h2>Vision</h2>
-            <ul class="list-group">
-              <li class=" border-0 list-group-item d-flex justify-content-between align-items-center">Our vision is to have our software running on every conceivable device.&nbsp;<br><i class="fa text-muted"></i></li>
-              <li class=" border-0 list-group-item d-flex justify-content-between align-items-center" contenteditable="true"> We offer a product range covering all industrial/commercial segments <i class="fa text-muted"></i></li>
-              <li class=" border-0 list-group-item d-flex justify-content-between align-items-center"> We act as a seed farm to empower small and large businesses alike <i class="fa text-muted"></i></li>
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i>Our vision is to have our software running on every conceivable device. </li>
+              <li><i class="ion-android-checkmark-circle"></i>We offer a product range covering all industrial/commercial segments </li>
+              <li><i class="ion-android-checkmark-circle"></i>We act as a seed farm to empower small and large businesses alike </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 about-content ">
             <h2>Core Values</h2>
             <p>Our core values are part of the value added proposition we bring to the table when we work with customers.</p>
             <ul>
@@ -157,63 +165,49 @@
               <li><i class="ion-android-checkmark-circle"></i>Accountability</li>
               <li><i class="ion-android-checkmark-circle"></i>Fairness</li>
             </ul>
+            <div class="row">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-12 about-content ">
+              <h2>Our Segments</h2>
+              <ul>
+                <li class="mb-2"> <b>Consumer products</b>&nbsp;- We empower the Gaming, KIOSK,POS,Advertising , AI .</li>
+                <li class="mb-2"> <b>Enterprise Solutions</b> - yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me.</li>
+                <li class="mb-2"> <b>Developer soultions</b>&nbsp;- strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.</li>
+                <li class="mb-2" contenteditable="true"> <b>Research and Development</b>&nbsp;- strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.</li>
+              </ul>
+              <div class="row">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12"></div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12"></div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="mx-auto col-lg-6 col-md-8">
-          <h2>Our Segments</h2>
-          <ul>
-            <li class="mb-2"> <b>Consumer products</b>&nbsp;- We empower the Gaming, KIOSK,POS,Advertising , AI .</li>
-            <li class="mb-2"> <b>Enterprise Solutions</b> - yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me.</li>
-            <li class="mb-2"> <b>Developer soultions</b>&nbsp;- strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.</li>
-            <li class="mb-2" contenteditable="true"> <b>Research and Development</b>&nbsp;- strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
   <section id="services" class="section-bg">
     <div class="container">
-      <header class="section-header">
-        <h1 class="text-center">Android/Linux Development</h1>
-        <h4 class="text-center pb-4">We provide a wide range of development services compatible with Bass OS. We also offer services to port Bass Toolkit to your BSP, allowing you to truly customize your OS stack.</h4>
-        <h3>Customization Services</h3>
+      <header class="section-header about-content ">
+        <h3 class="text-center w-100 d-flex align-items-center justify-content-center">Android/Linux Development</h3>
+        <h5 class="text-center pb-4">We provide a wide range of development services compatible with Bass OS. We also offer services to port Bass Toolkit to your BSP, allowing you to truly customize your OS stack.</h5>
+        <h4>Customization Services</h4>
       </header>
       <div class="row">
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
             <h4 class="title"><a>Branding</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
             <h4 class="title"><a>App Layer</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
             <h4 class="title"><a>Hardware Layer</a></h4>
@@ -222,21 +216,21 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #fceef3;"><i class="ion-ios-locked-outline" style="color: #ff689b;"></i></div>
             <h4 class="title"><a>Security</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #fff0da;"><i class="ion-ios-color-wand-outline" style="color: #e98e06;"></i></div>
             <h4 class="title"><a>Integrated Services</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-gear-outline" style="color: #3fcdc7;"></i></div>
             <h4 class="title"><a>Compatibility Support</a></h4>
@@ -247,24 +241,24 @@
     </div>
     <div class="container">
       <header class="section-header">
-        <h3>Consulting &amp; Development Services</h3>
+        <h4>Consulting &amp; Development Services</h4>
       </header>
       <div class="row">
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
             <h4 class="title"><a>Feature Development</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
             <h4 class="title"><a>Hardware Compatibility</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
             <h4 class="title"><a>App Integration</a></h4>
@@ -273,21 +267,21 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #fceef3;"><i class="ion-ios-list-outline" style="color: #ff689b;"></i></div>
             <h4 class="title"><a>Product Solutions</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #fff0da;"><i class="ion-ios-toggle-outline" style="color: #e98e06;"></i></div>
             <h4 class="title"><a>Service Development</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp  animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
           <div class="box">
             <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-calendar-outline" style="color: #3fcdc7;"></i></div>
             <h4 class="title"><a>Product Planning</a></h4>
@@ -298,24 +292,24 @@
     </div>
     <div class="container">
       <header class="section-header">
-        <h3>Long-Term Service</h3>
+        <h4>Long-Term Service</h4>
       </header>
       <div class="row">
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp   animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.1s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.1s;">
           <div class="box">
             <div class="icon" style="background: #eafde7;"><i class="ion-ios-cloud-outline" style="color:#41cf2e;"></i></div>
             <h4 class="title"><a>OTA Development Support</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp   animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s;">
           <div class="box">
             <div class="icon" style="background: #e1eeff;"><i class="ion-ios-cloud-download-outline" style="color: #2282ff;"></i></div>
             <h4 class="title"><a>OTA Hosting</a></h4>
             <p class="description"></p>
           </div>
         </div>
-        <div class="col-md-4 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s; animation-name: bounceInUp;">
+        <div class="col-md-4 col-lg-4 wow bounceInUp   animated animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-delay="0.2s" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.2s;">
           <div class="box">
             <div class="icon" style="background: #ecebff;"><i class="ion-ios-medkit-outline" style="color: #8660fe;"></i></div>
             <h4 class="title"><a>Security Update Development</a></h4>
@@ -324,7 +318,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 col-lg-4 wow bounceInUp animated animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s; animation-name: bounceInUp;">
+        <div class="col-md-12 col-lg-4 wow bounceInUp   animated animated animated animated animated animated animated animated animated animated animated animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s;">
           <div class="box">
             <div class="icon" style="background: #fff0da;"><i class="ion-ios-timer-outline" style="color: #e98e06;"></i></div>
             <h4 class="title"><a>Long-Term Development Contracts</a></h4>
@@ -335,7 +329,7 @@
     </div>
   </section>
   <section id="products">
-    <div class="py-5 bg-light" id="products">
+    <div class="py-5" id="products">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -405,7 +399,7 @@
                       <img class="card-img" src="assets/screenshots/TabletGo/Screenshot_20231120-082637_Quickstep.png">
                     </div>
                     <div class="card-header p-3 mt-2">
-                      <h3>Tablet</h3>
+                      <h3>Tablet - Consumer HW</h3>
                       <h5 style="">Updated: 02/21/2024</h5>
                     </div>
                     <div class="card-body p-3" style="	background-image: linear-gradient(to bottom, rgba(120, 120, 120, 0.2), rgba(120, 120, 120, 0.8));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
@@ -893,7 +887,7 @@
       </div>
     </div>
   </footer><!-- #footer -->
-  <a href="#" class="back-to-top" style="opacity: 0.954364; display: flex;"><i class="fa fa-chevron-up"></i></a>
+  <a href="#" class="back-to-top" style="opacity: 0.948017; display: flex;"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
   <!-- JavaScript Libraries -->
