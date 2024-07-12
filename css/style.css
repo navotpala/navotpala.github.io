@@ -67,6 +67,11 @@ h6 {
 .back-to-top i {
   padding-top: 12px;
   color: #fff;
+  flex: auto;
+}
+
+.primary-fill svg path {
+  fill: #0a98c0; 
 }
 
 /* Prelaoder */
