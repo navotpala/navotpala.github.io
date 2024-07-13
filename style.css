@@ -17,7 +17,7 @@ section {
   position: relative;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, #1F1E5B, #3F5EFB);
+  background: radial-gradient(circle, #00A0C6, #043846);
 }
 
 #bubbleCanvas {
