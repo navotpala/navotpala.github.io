@@ -1663,3 +1663,130 @@ h6 {
   float: left;
   box-shadow: inset 0px 0px 0px -4px rgba(255, 255, 255, 0.1), 1px 1px 6px rgba(0, 0, 0, 0.05), 1px 1px 8px rgba(0, 0, 0, 0.07);
 }
+
+
+.heroSlider{
+  width:100%;
+  height:100vh;
+  background-color:grey;
+  position:relative;
+  overflow:hidden;
+}
+.sliderTabs input{
+/*   Hides radial inputs */
+  visibility:hidden;
+  display:none;
+}
+
+.sliderTabsLabels label {
+  height:24px;
+  width:24px;
+  border-radius:16px;
+  border: 2px solid white;
+  background-color: rgba(15, 15, 15, 0.5);
+  cursor:pointer;
+  transition:width .5s;
+}
+
+.sliderTabsLabels {
+  display: flex;
+  gap:16px;
+  position: absolute;
+/* Centers the input labels on the bottom */
+  bottom:5%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+  .sliderTabs input:nth-child(1):checked ~ .sliderTabsLabels label:nth-child(1),
+  .sliderTabs input:nth-child(2):checked ~ .sliderTabsLabels label:nth-child(2),
+  .sliderTabs input:nth-child(3):checked ~ .sliderTabsLabels label:nth-child(3),
+  .sliderTabs input:nth-child(4):checked ~ .sliderTabsLabels label:nth-child(4){
+    width:60px;
+    background-color: black;
+  }
+
+.sliderContent{
+  display: flex;
+  width: 400vw;
+  height: 100vh;
+  position: relative;
+  transition: left .5s ease-out;
+
+}
+
+.sliderContent .slideBox {
+  height: 100vh;
+  width: 100vw;
+  display: flex; 
+  justify-content: start;
+  align-items:center;
+  flex-direction: column;
+  padding:10px;
+}
+
+.sliderContent .slideBox:nth-child(1){
+  background-color: ;
+}
+.sliderContent .slideBox:nth-child(2){
+  background-color: ;
+}
+.sliderContent .slideBox:nth-child(3){
+  background-color: ;
+}
+.sliderContent .slideBox:nth-child(4){
+  background-color: ;
+}
+
+.sliderTabs input:nth-child(1):checked ~ .sliderContent {
+  left: 0vw;
+}
+.sliderTabs input:nth-child(2):checked ~ .sliderContent {
+  left: -100vw;
+}
+.sliderTabs input:nth-child(3):checked ~ .sliderContent {
+  left: -200vw;
+}
+.sliderTabs input:nth-child(4):checked ~ .sliderContent {
+  left: -300vw;
+}
+
+.slideBox{
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: 100vw;
+}
+.content{
+  display:flex;
+  margin: 25vh 18vw;
+}
+.slide1-bg{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+}
+.slide2-bg{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+}
+.slide3-bg{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+/* background-position-y: 90%; */
+}
+.slide4-bg{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+/* background-position-y: 90%; */
+}
