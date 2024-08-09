@@ -1840,6 +1840,11 @@ background-size: 100vw;
 .game-section {
   padding: 60px 50px;
 }
+
+.game-section-top-dots {
+  padding: 30px 40px;
+}
+
 .game-section .owl-stage {
   margin: 15px 0;
   display: flex;
@@ -1906,6 +1911,14 @@ background-size: 100vw;
 .game-section .owl-theme.custom-carousel .owl-dots {
   margin-top: -20px;
   position: relative;
+  z-index: 5;
+}
+
+.game-section-top-dots .owl-theme.custom-carousel .owl-dots {
+  margin-top: -10px;
+  position: absolute;
+  padding-left: 10px;
+  top: 0;
   z-index: 5;
 }
 /******** Middle section CSS End *******/
