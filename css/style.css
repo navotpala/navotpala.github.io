@@ -459,7 +459,7 @@ h6 {
 }
 
 .mobile-nav .drop-down ul {
-  display: none;
+  /* display: none; */
   overflow: hidden;
 }
 
