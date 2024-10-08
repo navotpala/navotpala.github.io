@@ -2036,13 +2036,10 @@ background-size: 100vw;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .2s;
-  /* transition: .4s; */
+  -webkit-transition: .4s;
+  transition: .4s;
 	content: 'light' / '';
-  /* font-weight: lighter; */
-  /* font-size: small; */
   text-indent: 32px;
-	transition: text-indent .2s ease-in-out;
 }
 
 input:checked + .slider {
@@ -2055,8 +2052,6 @@ input:focus + .slider {
 
 input:checked + .slider:before {
   content: 'dark' / '';
-  /* font-weight: lighter; */
-  /* font-size: small; */
   color: whitesmoke;
   background: #bdbdbd;
   text-indent: -38px;
