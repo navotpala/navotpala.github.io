@@ -536,6 +536,75 @@
       </div>
     </div>
   </section>
+  <section id="service_details" class="section-bg clearfix">
+    <div class="py-5" id="service_details">
+      <div class="container">
+        <header class="section-header">
+          <h3>General Project Stages</h3>
+        </header>
+        <div class="row">
+          <div class="col-md-12">
+            <section class="timeline">
+              <ol>
+                <li>
+                  <div class="wow animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s;">
+                    <time>Stage 1 (1-2 weeks)</time>
+                      <h5>Define Requirements</h5>
+                      This is the first stage of the project, where both parties meet and go over the minimum requirements of the project
+                  </div>
+                </li>
+                <li>
+                  <div class="wow animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s;">
+                    <time>Stage 2 (3-4 weeks)</time>
+                      <h5>Build Base System</h5>
+                      This stage is where we start to build out the base OS, and integrate the features that are already available from our list of requirements. 
+                  </div>
+                </li>
+                <li>
+                  <div class="wow animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s;">
+                    <time>Stage 3 (+/- 1-2 weeks per feature)</time>
+                      <h5>New Feature Development</h5>
+                      This stage will happen in parallel with base system development and will include development of any new solutions required for the OS 
+                  </div>
+                </li>
+                <li>
+                  <div class="wow animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s;">
+                    <time>Stage 4 (2-3 weeks)</time>
+                      <h5>Targeted Hardware Testing</h5>
+                      This stage is where we separate a few specific hardware targets, and enter a testing phase to collect data and troubleshoot any issues. 
+                  </div>
+                </li>
+                <li>
+                  <div class="wow animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s;">
+                    <time>Stage 5 (2-3 weeks)</time>
+                      <h5>Test Group Rollout</h5>
+                      This stage is where we have a target hardware group at a testing location, and we roll out our initial builds to and collect data and troubleshoot where needed. 
+                  </div>
+                </li>
+                <li>
+                  <div class="wow animated" data-wow-duration="1.4s" style="visibility: visible; animation-duration: 1.4s;">
+                    <time>Stage 6 (2-3 weeks)</time>
+                      <h5>Final Product Rollout</h5>
+                      This is where we make the final release of our product, and collect data or troubleshoot where needed. 
+                  </div>
+                </li>
+                <li></li>
+              </ol>
+
+              <div class="arrows">
+                <button class="arrow arrow__prev disabled" disabled>
+                  <img src="img/arrow_prev.svg" alt="prev timeline arrow">
+                </button>
+                <button class="arrow arrow__next">
+                  <img src="img/arrow_next.svg" alt="next timeline arrow">
+                </button>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="products">
     <div class="py-5" id="products">
       <div class="container">
@@ -1356,6 +1425,11 @@
   <script src="js/main.js"></script>
   <script src="js/slider-timer.js"></script>
   <script src="js/gamer-section.js"></script>
+  <!-- Timeline -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+  <script src="js/timeline.js"></script>
+
+  <!-- General Scripts -->
   <script>
     function toggle() {
       let q = document.querySelectorAll('#nightify')
