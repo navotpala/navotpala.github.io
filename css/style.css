@@ -2098,8 +2098,8 @@ input:checked + .slider:before {
   list-style-type: none;
   width: 200px;
   height: 3px;
-  background: #00ccff;  
-  box-shadow: inset 0px 0px 0px -4px rgba(255, 255, 255, 0.1), 1px 1px 6px rgba(0, 0, 0, 0.05), 1px 1px 8px rgba(0, 0, 0, 0.07);
+  background: #8ae8ff;  
+  /* box-shadow: inset 0px 0px 0px -4px rgba(255, 255, 255, 0.1), 1px 1px 6px rgba(0, 0, 0, 0.05), 1px 1px 8px rgba(0, 0, 0, 0.07); */
 
 }
 
@@ -2126,7 +2126,7 @@ input:checked + .slider:before {
 
 .timeline ol li div {
   position: absolute;
-  left: calc(100% + 7px);
+  left: calc(100% + 14px);
   width: 342px;
   padding: 15px;
   font-size: 1rem;
@@ -2153,9 +2153,9 @@ input:checked + .slider:before {
 }
 
 .timeline ol li:nth-child(odd) div::before {
-  top: 100%;
-  border-width: 8px 8px 0 0;
-  border-color: white transparent transparent transparent;
+  top: 96%;
+  border-width: 24px 24px 0 0;
+  border-color: #f0f0f0 transparent transparent transparent;
 }
 
 .timeline ol li:nth-child(even) div {
@@ -2163,9 +2163,9 @@ input:checked + .slider:before {
 }
 
 .timeline ol li:nth-child(even) div::before {
-  top: -8px;
-  border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent white;
+  top: -7%;
+  border-width: 24px 0 0 24px;
+  border-color: transparent transparent transparent #f0f0f0;
 }
 
 .timeline time {
@@ -2204,7 +2204,114 @@ input:checked + .slider:before {
     border-color: buttonborder;
     border-image: initial;
 }
-background-color: 
+
+/* service_details Section
+--------------------------------*/
+
+#service_details {
+  padding: 80px 0;
+}
+
+#service_details .card {
+  border: 0.2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 3px 0 rgba(65, 62, 102, 0.08);
+  /* transition: all .3s ease-in-out; */
+  background-color:#f0f0f0;
+  padding: 0.5rem;
+  padding-top: 20px;
+  /* margin: -0.5rem; */
+  position: relative;
+  z-index: 1;
+}
+
+#service_details .card:after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: #1bb1dc;
+  transition: 0.5s;
+}
+
+#service_details .card:hover {
+  /* -webkit-transform: scale(1.05); */
+  /* transform: scale(1.05); */
+  box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+  z-index: 9999;
+}
+
+#service_details .card:hover:after {
+  width: 100%;
+}
+
+#service_details .card .card-header {
+  background-color: white;
+  border-bottom: 0px;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+#service_details .card .card-title {
+  margin-bottom: 16px;
+  color: #535074;
+}
+
+#service_details .card .card-block {
+  padding-top: 0;
+  text-align: center;
+}
+
+#service_details .card .list-group-item {
+  border: 0px;
+  padding: 6px;
+  color: #413e66;
+  font-weight: 300;
+}
+
+#service_details .card h3 {
+  font-size: 64px;
+  margin-bottom: 0px;
+  color: #535074;
+}
+
+#service_details .card h3 .currency {
+  font-size: 30px;
+  position: relative;
+  font-weight: 400;
+  top: -30px;
+  letter-spacing: 0px;
+}
+
+#service_details .card h3 .period {
+  font-size: 16px;
+  color: #6c67a3;
+  letter-spacing: 0px;
+}
+
+#service_details .card .list-group {
+  margin-bottom: 15px;
+}
+
+#service_details .card .btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: #5f5b96;
+  border-radius: 0;
+  padding: 10px 24px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  display: inline-block;
+  background: #1bb1dc;
+  color: #fff;
+}
+
+#service_details .card .btn:hover {
+  background: #0a98c0;
+}
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
