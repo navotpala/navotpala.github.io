@@ -4435,6 +4435,24 @@ button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: black !important; }
 
+.bg-basslt {
+  background-color: #a3eaff !important; }
+
+a.bg-basslt:hover, a.bg-basslt:focus,
+button.bg-basslt:hover,
+button.bg-basslt:focus {
+  background-color: #0ea5e6 !important; }
+
+
+.bg-basswt {
+  background-color: #c5eeff !important; }
+
+a.bg-basswt:hover, a.bg-basswt:focus,
+button.bg-basswt:hover,
+button.bg-basswt:focus {
+  background-color: #62cefc !important; }
+  
+
 .bg-white {
   background-color: #fff !important; }
 
@@ -6529,6 +6547,32 @@ html, body {
   .bg-dark .input-group-text {
     color: #fff; }
 
+  .bg-basslt {
+    color: #212529; }
+    .bg-basslt input::-webkit-input-placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basslt input:-ms-input-placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basslt input::-ms-input-placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basslt input::placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basslt .input-group-text {
+      color: #212529; }
+
+  .bg-basswt {
+    color: #212529; }
+    .bg-basswt input::-webkit-input-placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basswt input:-ms-input-placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basswt input::-ms-input-placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basswt input::placeholder {
+      color: rgba(33, 37, 41, 0.8); }
+    .bg-basswt .input-group-text {
+      color: #212529; }
+    
 .cover {
   min-height: 100%;
   display: flex;

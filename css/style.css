@@ -1136,7 +1136,7 @@ h6 {
 #pricing .card {
   border: 0.2rem;
   border-radius: 12px;
-  box-shadow: 0 6px 3px 0 rgba(65, 62, 102, 0.08);
+  box-shadow: 0 6px 3px 0 rgba(65, 62, 102, 0.4);
   transition: all .3s ease-in-out;
   background-color:#f0f0f0;
   padding: 0.5rem;
@@ -2112,9 +2112,16 @@ input:checked + .slider:before {
   list-style-type: none;
   width: 200px;
   height: 3px;
-  background: #8ae8ff;  
+  background: #53beff;  
   /* box-shadow: inset 0px 0px 0px -4px rgba(255, 255, 255, 0.1), 1px 1px 6px rgba(0, 0, 0, 0.05), 1px 1px 8px rgba(0, 0, 0, 0.07); */
 
+}
+
+.timeline h1 {
+  color: #413e66 !important;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
 }
 
 .timeline ol li:last-child {
