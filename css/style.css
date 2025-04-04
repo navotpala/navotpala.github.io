@@ -646,12 +646,26 @@ h6 {
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.4);
   transition: all 0.3s ease-in-out;
   text-align: center;
 }
 
 #services .box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#services .btn {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.4);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#services .btn:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
