@@ -2389,3 +2389,8 @@ input:checked + .slider:before {
     display: none;
   }
 }
+
+.blue-check {
+  padding-right: 4px;
+  color: #1bb1dc;
+}
