@@ -29,6 +29,15 @@ function themeToggle() {
       img.style.webkitFilter = 'invert(100%)';
       img.style.filter = 'invert(100%)';
 } 
+      // To fix specfic issue with Git and Jenkin svg
+      if (img.id === 'svg2') {
+      img.style.webkitFilter = 'invert(0%)';
+      img.style.filter = 'invert(0%)';
+} 
+      if (img.id === 'svg3') {
+      img.style.webkitFilter = 'invert(0%)';
+      img.style.filter = 'invert(0%)';
+} 
     });
     var itemElements = document.querySelectorAll('.item');
     itemElements.forEach(function(item) {
