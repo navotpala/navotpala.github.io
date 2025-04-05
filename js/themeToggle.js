@@ -22,8 +22,9 @@ function themeToggle() {
     // Find each img element and add a new style to invert it again
     var imgElements = document.querySelectorAll('img');
     imgElements.forEach(function(img) {
-      // img.style.webkitFilter = 'invert(0%) hue-rotate(180deg) contrast(100%)';
-      //To fix specfic issue with blissos svg
+      // Fixed few images were still inverted
+      img.style.webkitFilter = 'invert(100%) hue-rotate(180deg) contrast(100%)';
+      // To fix specfic issue with blissos svg
       if (img.id === 'svg') {
       img.style.webkitFilter = 'invert(100%)';
       img.style.filter = 'invert(100%)';
